@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px = 1em */
+  font-family: "Poppins", "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* header begins */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 5em;
+  width: 14em;
+}
+
+.header-nav {
+  padding: 2em 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+}
+
+.header-nav li:last-of-type {
+  background-color: #329530;
+  padding: 1.4em 2.8em;
+  color: #ffffff !important;
+  border-radius: 5em;
+}
+
+.header-nav li:last-of-type a {
+  color: #ffffff;
+
+  /* added the stylings below because i removed the nav-links class from
+    this element
+   */
+  text-decoration: none;
+  font-size: 1.6em;
+}
+
+.header-nav li .nav-links {
+  text-decoration: none;
+  color: #423c3c;
+  font-size: 1.6em;
+
+  /* added a position relative to help with the hover effect */
+  position: relative;
+}
+
+/* 
+    wrote this styles to help with the nav-toggler and 
+    add some aesthetic 
+                @uzor
+ */
+
+.header-nav li .nav-links::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0.2em;
+  background: #329530;
+  border-radius: 0.5em;
+  top: -1em;
+  right: 0;
+  transition: all 0.3s ease-in;
+}
+
+.header-nav li .nav-links:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.header-nav li .nav-links.nav-links-active::after {
+  width: 100%;
+}
+
+/* footer begins */
+
+footer {
+  padding: 5em 0;
+  background-image: url(img/Footerbg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-head {
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.footer-list-icon,
+.footer-list-nav,
+.footer-list-text {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 5em;
+  align-items: center;
+}
+
+.footer-list-nav li a,
+.footer-list-text li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.6em;
+}
+
+.footer-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.copy-text {
+  color: #ffffff;
+  font-size: 1.6em;
+}
