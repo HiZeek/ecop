@@ -1,6 +1,7 @@
 *,
 *::before,
 *::after {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,11 +23,35 @@ body {
   height: 100%;
   margin: 0 auto;
   position: relative;
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;          /* 10px = 1em */
+    font-family: 'Poppins', 'Raleway', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+>>>>>>> 2f670d1de870de792093f13ec2687614c24ae618
 }
 
 /* header begins */
 
 .main-header {
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -120,20 +145,96 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 5em;
+=======
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 5em;
+    width: 14em;
+}
+
+.header-nav {
+    padding: 2em 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    align-items: center;
+}
+
+.header-nav li:last-of-type {
+    background-color: #329530;
+    padding: 1.4em 2.8em;
+    color: #ffffff !important;
+    border-radius: 5em;
+}
+
+.header-nav li:last-of-type a {
+    color: #ffffff;
+}
+
+.header-nav li .nav-links {
+    text-decoration: none;
+    color: #423C3C;
+    font-size: 1.6em;
+}
+
+.nav-links-active {
+    padding: 1em 0;
+    border-top: .2em solid #329530;
+}
+
+
+
+/* footer begins */
+
+
+footer {
+    padding: 5em 0;
+    background-image: url(img/Footerbg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-head {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+>>>>>>> 2f670d1de870de792093f13ec2687614c24ae618
 }
 
 .footer-list-icon,
 .footer-list-nav,
 .footer-list-text {
+<<<<<<< HEAD
   list-style: none;
   display: flex;
   justify-content: space-between;
   gap: 5em;
   align-items: center;
+=======
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+    align-items: center;
+>>>>>>> 2f670d1de870de792093f13ec2687614c24ae618
 }
 
 .footer-list-nav li a,
 .footer-list-text li a {
+<<<<<<< HEAD
   text-decoration: none;
   color: #ffffff;
   font-size: 1.6em;
@@ -150,3 +251,21 @@ footer {
   color: #ffffff;
   font-size: 1.6em;
 }
+=======
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.6em;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.copy-text {
+    color: #ffffff;
+    font-size: 1.6em;
+}
+>>>>>>> 2f670d1de870de792093f13ec2687614c24ae618
