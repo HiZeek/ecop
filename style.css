@@ -8,12 +8,13 @@
 
 html {
     font-size: 62.5%;          /* 10px = 1em */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', 'Raleway', sans-serif;
 }
 
-/* body {
-    
-} */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
 
 .container {
     width: 90%;
@@ -62,12 +63,8 @@ html {
     font-size: 1.6em;
 }
 
-/* .header-nav li .nav-links:last-child {
-    color: #ffffff;
-} */
-
 .nav-links-active {
-    padding: .8em 1.6em;
+    padding: 1em 0;
     border-top: .2em solid #329530;
 }
 
