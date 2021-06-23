@@ -46,8 +46,9 @@
             <div class="container">
                 <div class="top_container">
                     <h1>Report a crime <span class="green">anonymously!</span></h1>
-                    <p>Help catch the bad guys! Report a crime whereever you witnessed it
+                    <p>Help catch the bad guys! Report a crime wherever you witnessed it
                     in a few steps</p>
+                    <!-- wherever was initially spelt "whereever" -->
                     <button class="btn">Start Reporting</button>
                     <img src="img/Prisoner_photo.jpg" alt="a criminal in handcuff">
                 </div>
@@ -72,24 +73,31 @@
 
             <div class="container">
                 <div class="todo">
-                    <p>WHAT WE DO</p>
+                    <!-- added .what_we_do class to target this p only for
+                    specific styling-->
+                    <p class="what_we_do">WHAT WE DO</p>
                     <h3>One platform to report <span class="green">all crimes</span> and
                     suspicious activities as sighted </h3>
-                    <div class="steps">
-                        <img src="img/report.jpg" alt="report logo">
-                        <h4>Report a crime today</h3>
-                        <p>Report a crime in very easy steps! Tell us where, when and how it
-                        happened!</p>
-                    </div>
-                    <div class="steps">
-                        <img src="img/keep_track.png" alt="keep track">
-                        <h4>Keep track of reported cases</h3>
-                        <p>Yu can check to see what happened with a case you had reported</p>
-                    </div>
-                    <div class="steps">
-                        <img src="img/anonymous.jpg" alt="anonymous">
-                        <h4>Be completely anonymous</h3>
-                        <p>Keep your identity unknown, be like an undercover cop</p>
+                    <div class="list_todo"> 
+                        <!-- Added .list_todo div to wrap .steps divs &  added
+                        the green class to the h4 in the steps div so it grabs
+                        the green styling earlier defined for other elements-->
+                        <div class="steps">
+                            <img src="img/report.jpg" alt="report logo">
+                            <h4 class="green">Report a crime today</h3>
+                            <p>Report a crime in very easy steps! Tell us where, when and how it
+                            happened!</p>
+                        </div>
+                        <div class="steps">
+                            <img src="img/keep_track.png" alt="keep track">
+                            <h4 class="green">Keep track of reported cases</h3>
+                            <p>You can check to see what happened with a case you had reported</p>
+                        </div>
+                        <div class="steps">
+                            <img src="img/anonymous.jpg" alt="anonymous">
+                            <h4 class="green">Be completely anonymous</h3>
+                            <p>Keep your identity unknown, be like an undercover cop</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -99,7 +107,7 @@
         <section>
 
             <div class="container">
-                <div>
+                <div class="workings">
                     <p>HOW IT WORKS</p>
                     <h3>Report a crime in <span class="green">X simple</span> steps</h3>
                 </div>
