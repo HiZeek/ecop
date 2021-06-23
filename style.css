@@ -254,6 +254,34 @@ h1{
   background: linear-gradient(102.08deg, #4F7F4E -5.5%, #70C76E 103.6%);
 }
 
+.container .tell_us_location{
+  width: 100%;
+  text-align: left;
+}
+
+.tell_us .container{
+  display: flex;
+}
+
+.tell_us_location .step_p1{
+  width: 6.25em;
+  height: 2.75em;
+  font-size: 1.75em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 156.7%;
+  /* identical to box height, or 44px */
+
+  letter-spacing: 0.03em;
+
+  color: #F6F6F6;
+}
+
+
+
+
+
+
 
 
 /* footer begins */
