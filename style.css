@@ -131,6 +131,19 @@ h1{
   color: #4F7F4E;;
 }
 
+.section-authority {
+  background-color: #FBFBFB;
+}
+
+.authority {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 3em 2em;
+  
+}
 
 .top_container p{
   font-size: 2.6em;
@@ -337,6 +350,25 @@ footer {
 
 
 /* REPORT PAGE CSS */
+
+.report-container-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.first-box {
+  width: 100%;
+}
+
+.situation {
+  padding: 1em 6em 1em 2em;
+  background-color: rgba(195, 225, 195, 0.6);
+  outline: none;
+  border-radius: 1.3em;
+  width: 150%;
+}
 
 
 /* ABOUT PAGE CSS */
