@@ -117,7 +117,7 @@ main{
 
 #top{
   margin-top: 5em;
-  background-color: #FBFBFB;;
+  background-color: #ffffff;
 }
 
 h1{
@@ -314,7 +314,7 @@ h1{
 
 footer {
   padding: 5em 0;
-  background-image: url(img/Footerbg.png);
+  background-image: url(../img/Footerbg.png);
   background-position: center;
   background-size: cover;
 }
@@ -381,7 +381,13 @@ footer {
   background-color: rgba(195, 225, 195, 0.6);
   outline: none;
   border-radius: 1.3em;
-  width: 150%;
+  width: 100%;
+  color: #175616;
+  font-size: 1.8em;
+}
+
+.situation-option {
+  color: #000000;
 }
 
 
