@@ -145,6 +145,20 @@ h1{
   
 }
 
+.zuri-text {
+  color: #C4B8B8;
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.slack {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+}
+
 .top_container p{
   font-size: 2.6em;
   font-weight: 600;
