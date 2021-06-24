@@ -132,8 +132,9 @@ h1{
 }
 
 .section-authority {
-  background-color: #FBFBFB;
+  background-color: #fff;
 }
+
 
 .authority {
   display: flex;
@@ -141,8 +142,32 @@ h1{
   align-items: center;
   width: 60%;
   margin: 0 auto;
-  padding: 3em 2em;
-  
+  padding: 2em;
+}
+
+.authority .zuri-text{
+  width: 11.4em;
+  height: 2.56em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.625em;
+  line-height: 2.5em;
+  letter-spacing: 0.03em;
+  color: #888282;
+  margin: 0 auto;
+}
+
+.slack p{
+  width: 5em;
+  height: 2.56em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.625em;
+  line-height: 2.5em;
+  letter-spacing: 0.03em;
+  color: #888282;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .top_container p{
@@ -172,6 +197,10 @@ h1{
   background-color: #FBFBFB;
 }
 
+.container .todo{
+  padding: 10em 0 0 0;
+}
+
 .todo .what_we_do{
   width: 11.4em;
   height: 2.56em;
@@ -181,12 +210,12 @@ h1{
   line-height: 2.5em;
   letter-spacing: 0.03em;
   color: #888282;
-  margin: 4em auto 0.5em;
+  margin: 0 auto;
 }
 
 .todo h3{
   width: 45%;
-  margin: 1em auto;
+  margin: 1em auto 2em;
   font-size:3.6em;
   font-weight: 800;
   line-height: 1.2;
@@ -236,6 +265,10 @@ h1{
   color: #727672;
 }
 
+.container .workings{
+  padding: 3em 0;
+}
+
 .workings p{
   width: 13.75em;
   height: 2.6em;
@@ -263,36 +296,115 @@ h1{
 
 .tell_us {
   width: 100%;
-  height: 40.9;
+  height: auto;
   background: linear-gradient(102.08deg, #4F7F4E -5.5%, #70C76E 103.6%);
 }
 
+
+
+.tell_us .container{
+  padding: 10em 10em 0;
+}
+
+.container .tell{
+  display: flex;
+  justify-content:space-around;
+  margin: 0 auto;
+}
+
 .container .tell_us_location{
-  width: 100%;
   text-align: left;
 }
 
-.tell_us .container{
-  display: flex;
-}
-
 .tell_us_location .step_p1{
-  width: 6.25em;
+  width: 10em;
   height: 2.75em;
   font-size: 1.75em;
   font-style: normal;
   font-weight: 600;
-  line-height: 156.7%;
-  /* identical to box height, or 44px */
-
+  line-height: 2.5;
   letter-spacing: 0.03em;
-
   color: #F6F6F6;
 }
 
+.tell_us_location h2{
+  width: 12em;
+  height: 2.3em;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.375em;
+  line-height: 2;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
 
+.tell_us_location .step_p2{
+  width: 17em;
+  height: 6em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-top: 1em;
+}
 
+.testify .container{
+  padding: 1.5em 0 15em 0; 
+}
 
+.testify .test_p1{
+  width: 20em;
+  height: 2.56em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.625em;
+  line-height: 2.5em;
+  letter-spacing: 0.03em;
+  color: #888282;
+  margin: 6em auto 1em;
+}
+
+.testify h3{
+  width: 40.4em;
+  height: 2.9em;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.2em;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: auto;
+  color: #323030; 
+}
+
+.container .testifier{
+  width: 39.75em;
+  height: 25em;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.1);
+  border-radius: 2.125em;
+  margin: 0 auto;
+}
+
+.testify img{
+  width: 6%;
+}
+
+.testifier .test_p2{
+  width: auto;
+  height: 12.5em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  padding: 2.2em 1.5em;
+  color: #888282;
+}
 
 
 
