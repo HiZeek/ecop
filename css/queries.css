@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .about_top_container{
 	display: flex;
 	justify-content: center;
@@ -111,7 +110,6 @@
 
 .green{
 	margin-bottom: 1em;
-=======
 /* screens from 1291px to 1330px */
 
 @media only screen and (max-width: 1330px) {
@@ -207,5 +205,4 @@
 
     
 
->>>>>>> ca58420a4ed5219c4850876e284c5ecf1203744b
 }
