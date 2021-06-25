@@ -1,0 +1,113 @@
+.about_top_container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	text-align: left;
+	padding-top: 8em;
+}
+
+.about_top_container .top_image{
+	width: 50%;
+	/* padding-left: 5em; */
+}
+.about_top_container .top_texts{
+	width: 50%;
+	padding-left: 5em;
+}
+
+.top_texts h1{
+	width: auto;
+}
+
+.about_top_container p{
+	width: auto;
+	height: 10em;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.6em;
+	line-height: 2;
+	letter-spacing: 0.09em;
+	color: #8B8B8B;
+}
+
+.about_top_container img{
+	width: auto;
+	height: 34.7em;
+}
+
+.images_and_text{
+	display: flex;
+	justify-content: center;
+	padding:  10em 0;
+}
+
+.images .box_container{
+	display: flex;
+	justify-content:space-around;
+}
+
+.images, .text{
+	display: inline-block;
+	width: 50%;
+}
+
+.images{
+	padding-top: 10em;
+}
+
+.box_container img{
+	width: 24em;
+	height: 31em;
+	margin: 2em 0;
+	border-radius: 0.625em;
+}
+
+.text h3{
+	width: 7em;
+	height: 1.5em;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 127.7%;
+	text-align: left;
+	letter-spacing: 0.03em;
+	color: #4F7F4E;
+}
+
+.the_vision .text_p, .the_mission .text_p{
+	width: 56em;
+	height: 35em;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.1);
+	border-radius: 2.125em;
+	margin-bottom: 5em;
+}
+
+.the_statement .text_p{
+	width: 56em;
+	height: 56em;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.1);
+	border-radius: 34px;
+	margin-bottom: 1em;
+}
+
+
+
+.text_p p{
+	width: 18em;
+	height: 10.25em;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.5em;
+	text-align: left;
+	line-height: 1.8;
+	letter-spacing: 0.03em;
+	margin: auto;
+	padding-top: 3em;
+	color: #888282;
+}
+
+.green{
+	margin-bottom: 1em;
+}
