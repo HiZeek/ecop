@@ -463,11 +463,43 @@ footer {
 
 /* REPORT PAGE CSS */
 
+.report-writeup {
+  background-image: url(../img/Report\ Top.png);
+  background-size: cover;
+  background-position: center;
+  height: 276px;
+  width: 96%;
+  margin-top: 3em;
+}
+
+.report-header,
+.report-text {
+  color: #ffffff;
+  text-align: start;
+  /* padding-left: 4em; */
+}
+
+.report-header {
+  font-size: 56px;
+}
+
+.report-text {
+  font-size: 20px;
+}
+
+.report_top_container {
+  padding: 5em 0 0 15em;
+}
+
+.report-form-section-1 {
+  padding: 8em 0;
+}
+
 .report-container-1 {
   display: flex;
   justify-content: space-between;
-  width: 60%;
-  margin: 0 auto;
+  width: 70%;
+  margin: 0 auto 8em auto;
 }
 
 .first-box {
@@ -475,11 +507,12 @@ footer {
 }
 
 .situation {
-  padding: 1em 6em 1em 2em;
+  padding: .8em 6em 1em 2em;
   background-color: rgba(195, 225, 195, 0.6);
+  border: .1em solid #175616;
   outline: none;
   border-radius: 1.3em;
-  width: 100%;
+  width: 120%;
   color: #175616;
   font-size: 1.8em;
 }
@@ -488,5 +521,14 @@ footer {
   color: #000000;
 }
 
+.situation-text {
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 1em;
+}
+
+.test {
+  
+}
 
 /* ABOUT PAGE CSS */

@@ -42,10 +42,10 @@
         <main>
             <!--for the top section-->
             <section class="report-top-section" id="report-top">
-                <div class="container">
+                <div class="container report-writeup">
                     <div class="report_top_container">
-                        <h1>Witnessed a crime?</h1>
-                        <p>Give us every information that could help convict suspects,<br>
+                        <h1 class="report-header">Witnessed a crime?</h1>
+                        <p class="report-text">Give us every information that could help convict suspects,<br>
                             retrieve stolen properties or respond to emergencies.</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                 <div class="container">
                     <div class="report-container-1">
                         <div class="first_box">
-                            <p>What is your current situation?</p>
+                            <p class="situation-text">What is your current situation?</p>
                             <select name="situation" id="situation" class="situation">
                                 <option value="A crime incident " class="situation-option">A crime incident</option>
                                 <option value="Happening right now" class="situation-option">Happening right now</option>
@@ -65,7 +65,7 @@
                             </select> 
                         </div>
                         <div class="second_box">
-                            <p>Where are you reporting from?</p>
+                            <p class="situation-text">Where are you reporting from?</p>
                             <form>
                                 <label for="reporting"></label>
                                 <input type="text" name="reporting" class="situation">
@@ -75,7 +75,7 @@
 
                         <div class="report-container-1">
                             <div class="first_box">
-                                <p>What is the nature of the crime?</p>
+                                <p class="situation-text">What is the nature of the crime?</p>
                                 <select name="situation" id="situation" class="situation">                        
                                     <option value="Armed Robbery">Armed Robbery</option>
                                     <option value="Child Trafficking">Child Trafficking</option>
@@ -85,7 +85,7 @@
                                 </select>  
                             </div>
                             <div class="second_box">
-                                <p>What agency are you addressing this report to?</p>
+                                <p class="situation-text">What agency are you addressing this report to?</p>
                                 <select name="situation" id="situation" class="situation">                        
                                     <option value="Nigerian Police Force">Nigerian Police Force</option>
                                     <option value="Civil Defence">Civil Defence</option>
@@ -98,14 +98,14 @@
 
                         <div class="report-container-1">
                             <div class="first_box">
-                                <p>Date of Incident?</p>
+                                <p class="situation-text">Date of Incident?</p>
                                 <form>
                                     <label for="date"></label>
-                                    <input type="text" name="date" class="situation">
+                                    <input type="date" name="date" class="situation">
                                 </form> 
                             </div>
                             <div class="second_box">
-                                <p>Location of incident?</p>
+                                <p class="situation-text">Location of incident?</p>
                                 <form>
                                     <label for="location"></label>
                                     <input type="text" name="location" class="situation">
@@ -113,59 +113,30 @@
                             </div>
                         </div>
 
+                        <div class="report-container-1">
+                            <div class="upload">
+                                <p class="situation-text test">Upload picture or video evidence</p>
+                                <form>
+                                    <label for="upload"></label>
+                                    <input type="file" class="situation">   
+                                    <!-- <img src="/img/upload.png" alt="camera logo">                       -->
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <br><br><br>
+                        <button class="btn">REPORT</button>  
+                    </div>              
+
                 </div>
+
             </section>
 
           
             <section class="report-form-section-2" id="report-form-2">
                 
-                <!-- <div class="container">
-                    <div class="report_container_2">
-                        <div class="third_box">
-                            <p>What is the nature of the crime?</p>
-                            <select name="situation" id="situation">                        
-                                <option value="Armed Robbery">Armed Robbery</option>
-                                <option value="Child Trafficking">Child Trafficking</option>
-                                <option value="Drugs and Narcotics">Drugs and Narcotics</option>
-                                <option value="Financial">Financial</option>
-                                <option value="Fraud">Fraud</option>
-                            </select> 
-                        </div>
-                        <div class="fourth_box">
-                            <p>What agency are you addressing this report to?</p>
-                            <select name="situation" id="situation">                        
-                                <option value="Nigerian Police Force">Nigerian Police Force</option>
-                                <option value="Civil Defence">Civil Defence</option>
-                                <option value="NDLEA">NDLEA</option>
-                                <option value="ICPC">ICPC</option>
-                                <option value="Customs">Customs</option>
-                            </select> 
-                        </div> -->
-                        <!-- <div class="date">
-                            <p>Date of Incident?</p>
-                            <form>
-                                <label for="date"></label>
-                                <input type="text" name="date">
-                            </form>
-                        </div>
-                        <div class="location">
-                            <p>Location of incident?</p>
-                            <form>
-                                <label for="location"></label>
-                                <input type="text" name="location">
-                            </form>
-                        </div> -->
-                        <div class="upload">
-                            <p>Upload picture or video evidence</p>
-                            <form>
-                                <label for="upload"></label>
-                                <input type="file"/>   
-                                <img src="/img/upload.png" alt="camera logo">                      
-                            </form>
-                        </div>
-                        <br><br><br>
-                        <button class="btn">REPORT</button>  
-                    </div>                               
+                
+                                         
             </section>
 
             <section class="section-authority" id="channels">
